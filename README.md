@@ -21,7 +21,7 @@ Built using **Tkinter**, the GUI offers a straightforward checkbox system for qu
 
 ## Project Structure
 ```
-PlaintextML_MINI/
+ML_MINI/
 ├── data/
 │   └── phishing.csv         # Custom dataset with categorical features
 ├── model/
