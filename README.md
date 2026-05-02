@@ -1,8 +1,8 @@
-#PhishGuard AI: Phishing Email Detection
+# PhishGuard AI: Phishing Email Detection
 
 PhishGuard AI is a lightweight machine learning application designed to identify potentially malicious emails based on behavioral patterns. Using a **Bernoulli Naive Bayes classifier** and a custom dataset, the tool evaluates key risk factors like link presence and domain trust to provide real-time security analysis.
 
-##Project Overview
+## Project Overview
 
 **Core Objective:**
 Provide a simple, accessible tool for non-technical users to verify email legitimacy without requiring deep cybersecurity knowledge.
@@ -19,7 +19,7 @@ The system evaluates four primary indicators:
 Built using **Tkinter**, the GUI offers a straightforward checkbox system for quick input and instant visual feedback.
 
 
-##Project Structure
+## Project Structure
 ```
 PlaintextML_MINI/
 ├── data/
@@ -45,7 +45,7 @@ Bernoulli Naive Bayes was chosen due to its efficiency with binary features and 
 The model is trained using an 80/20 train-test split and achieves high accuracy in detecting patterns within the dataset.
 
 
-##Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Libraries:**
   * Pandas (Data Handling)
@@ -53,7 +53,7 @@ The model is trained using an 80/20 train-test split and achieves high accuracy 
   * Pickle (Model Storage)
 * **GUI:** Tkinter
 
-##Getting Started
+## Getting Started
 
 **1. Install Requirements**
 ```bash
@@ -68,7 +68,7 @@ python train.py
 python app.py
 ```
 
-##Observations & Future Scope
+## Observations & Future Scope
 
 **Current State:**
 
